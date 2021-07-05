@@ -1,9 +1,7 @@
-import { NativeModules } from 'react-native';
+declare global {
+  function helloWorld(): string;
+}
 
-type DominantColorType = {
-  multiply(a: number, b: number): Promise<number>;
-};
-
-const { DominantColor } = NativeModules;
-
-export default DominantColor as DominantColorType;
+export function hello() {
+  return global.helloWorld();
+}
