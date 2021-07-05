@@ -37,7 +37,21 @@
     "android"
   ],
   "repository": "https://github.com/TheRogue76/react-native-dominant-color",
-  "author": " Parsa Nasirimehr, Matin Zadeh Dolat Abad, Erfan Momeni <p.nasirimehr@gmail.com> (https://github.com/TheRogue76)",
+  "contributors": [
+    {
+      "name": "Parsa Nasirimehr",
+      "email": "p.nasirimehr@gmail.com",
+      "url": "https://github.com/TheRogue76"
+    },
+    {
+      "name": "Matin Zadeh Dolat Abad",
+      "url": "https://github.com/matinzd"
+    },
+    {
+      "name": "Erfan Momeni",
+      "url": "https://github.com/ErfanMo77"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TheRogue76/react-native-dominant-color/issues"
